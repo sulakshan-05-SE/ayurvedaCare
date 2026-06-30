@@ -1,4 +1,5 @@
 {
+  "outputDirectory": "forntend/dist",
   "rewrites": [
     {
       "source": "/api/(.*)",
