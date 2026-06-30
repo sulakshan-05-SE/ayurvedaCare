@@ -35,7 +35,7 @@ app.use('/api/news', newsRoutes);
 
 import path from 'path';
 
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'production' && process.env.VERCEL !== '1') {
   const __dirname = path.resolve();
   // Serve static files from the frontend dist folder
   app.use(express.static(path.join(__dirname, '../forntend/dist')));
