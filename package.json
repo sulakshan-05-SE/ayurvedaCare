@@ -1,0 +1,9 @@
+{
+  "name": "ayurveda-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm --prefix backend install && npm --prefix forntend install && npm --prefix forntend run build"
+  }
+}
